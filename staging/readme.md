@@ -12,9 +12,9 @@ This script will display the status of each file listed in "files". The paths sh
 
 Script output:
 
-> ONLINE: means that the file is only on disk
-> NEARLINE: means that the file in only on tape
-> ONLINE_AND_NEARLINE: means that the file in on disk and tape
+> ONLINE: means that the file is only on disk  
+> NEARLINE: means that the file in only on tape  
+> ONLINE_AND_NEARLINE: means that the file in on disk and tape  
 
 * Executing stage.py or state.py
   * Test the status of the files: `python state.py`
