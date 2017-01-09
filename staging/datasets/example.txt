@@ -1,0 +1,3 @@
+srm://srm.grid.sara.nl:8443/pnfs/grid.sara.nl/data/projects.nl/tropomi/natalie/zap.tar
+srm://srm.grid.sara.nl:8443/pnfs/grid.sara.nl/data/projects.nl/tropomi/natalie/zap2.tar
+srm://srm.grid.sara.nl:8443/pnfs/grid.sara.nl/data/projects.nl/tropomi/natalie/test.tgz
