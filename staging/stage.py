@@ -50,9 +50,9 @@ try:
     # Parameters:
     #   surls is the given [srmlist] argument
     #   pintime in seconds (how long should the file stay PINNED), e.g. value 604800 will pin files for a week
-    #   timeout of request in seconds
+    #   timeout of request in seconds, e.g. value 604800 will timeout the requests after a week
     #   async is asynchronous request (does not block if != 0)
-    (status, token) = context.bring_online(surls, 604800, 86400, True)
+    (status, token) = context.bring_online(surls, 604800, 604800, True)
     if token:
         print("Got token %s" % token)
     else:
